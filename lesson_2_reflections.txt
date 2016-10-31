@@ -13,3 +13,8 @@ The staging area allows you to add/remove files such that you can ensure the abo
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 If you want to create a variation/experimental version of a code you are working on. Branches would allow you to edit this without affecting the existing code, which means that if you were to break something, this would not break the working code. We can also choose to merge at a later date if this new feature should be implementd in the original code.
+
+How do the diagrams help you visualize the branch structure?
+
+They help you to identify where the branches bifuricated, and which parts of the code contain which data
+
