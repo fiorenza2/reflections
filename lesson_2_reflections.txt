@@ -1,4 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-You create an empty repository which contains your current files. This is create the hidden .git folder which will store any future commit metadata
+You create an empty repository. This is create the hidden .git folder which will store any future commit metadata
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It acts as a buffer for the commit, and files here are not tracked. It allows you to select which files are updated in a commit, as for some files it may not be appropriate to update within the working directory, especially new or redundant ones.
 
