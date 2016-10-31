@@ -18,3 +18,8 @@ How do the diagrams help you visualize the branch structure?
 
 They help you to identify where the branches bifuricated, and which parts of the code contain which data
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The differences/updates between the branches are merged, and we produce a new tip which contains these changes. This is represented to show that the differences are combined into a single new commit, which has commit parents from both branches.
+
+
