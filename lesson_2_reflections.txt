@@ -22,4 +22,6 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The differences/updates between the branches are merged, and we produce a new tip which contains these changes. This is represented to show that the differences are combined into a single new commit, which has commit parents from both branches.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
+It's much quicker, and is logically sound. In cases where there is ambiguity in code changes, git will inform you and the change can be made manually.
